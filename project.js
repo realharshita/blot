@@ -59,6 +59,33 @@ t.forward(38)
 t.right(180)
 t.forward(38)
 t.forward(43)
+t.left(90)
+t.forward(169)
+t.left(62)
+t.forward(49)
+t.left(28)
+t.forward(39)
+t.right(90)
+t.forward(262)
+t.right(90+45)
+t.forward(68.095)
+t.right(15)
+t.forward(88)
+
+
+t.right(45)
+t.forward(61) //centre
+let angle = 0
+const radius = 61
+while(angle!=360){
+  angle = angle + 1
+  t.right(angle)
+  t.forward(radius)
+  t.right(180)
+  t.forward(radius)
+  t.right(180)
+}
+t.forward(61)
 
 
 
