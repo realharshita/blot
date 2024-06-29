@@ -1,17 +1,17 @@
 const max_x = 723;
-const max_y = 194;
-setDocDimensions(max_x,max_y);
+const max_y = 218;
+setDocDimensions(max_x, max_y);
 
 
 
 const t = new bt.Turtle()
 t.left(90)
-t.forward(88)
+t.forward(109)
 t.right(90)
 t.forward(101)
 t.right(180)
 t.forward(101)
-t.right(90+25)
+t.right(90 + 25)
 t.forward(19.313)
 t.right(60)
 t.forward(146.812)
@@ -25,13 +25,13 @@ t.left(30)
 t.forward(132.938)
 t.right(30)
 t.forward(45)
-t.right(90+65)
+t.right(90 + 65)
 t.forward(180)
 t.right(25)
 t.forward(142)
 t.right(21.5)
 t.forward(207)
-t.right(90+68.5)
+t.right(90 + 68.5)
 t.forward(263)
 t.forward(94)
 t.right(104)
@@ -44,7 +44,7 @@ t.left(180)
 t.right(90)
 t.forward(66)
 t.right(180)
-t.forward(66+39)
+t.forward(66 + 39)
 t.left(90)
 t.forward(35)
 t.right(180)
@@ -67,7 +67,7 @@ t.left(28)
 t.forward(39)
 t.right(90)
 t.forward(262)
-t.right(90+45)
+t.right(90 + 45)
 t.forward(68.095)
 t.right(15)
 t.forward(88)
@@ -77,7 +77,7 @@ t.right(45)
 t.forward(61) //centre
 let angle = 0
 const radius = 61
-while(angle!=360){
+while (angle != 360) {
   angle = angle + 1
   t.right(angle)
   t.forward(radius)
@@ -85,7 +85,7 @@ while(angle!=360){
   t.forward(radius)
   t.right(180)
 }
-t.right(180-15)
+t.right(180 - 15)
 t.left(90)
 t.forward(20)
 t.right(90)
@@ -93,7 +93,7 @@ t.forward(395)
 t.right(90)
 t.forward(20)
 angle = 0
-while(angle!=360){
+while (angle != 360) {
   angle = angle + 1
   t.right(angle)
   t.forward(radius)
@@ -101,6 +101,13 @@ while(angle!=360){
   t.forward(radius)
   t.right(180)
 }
+t.forward(20)
+t.right(90)
+t.forward(57)
+t.right(20)
+t.forward(80)
+t.right(50)
+t.forward(42)
 
 
 
