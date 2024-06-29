@@ -85,7 +85,22 @@ while(angle!=360){
   t.forward(radius)
   t.right(180)
 }
-t.forward(61)
+t.right(180-15)
+t.left(90)
+t.forward(20)
+t.right(90)
+t.forward(395)
+t.right(90)
+t.forward(20)
+angle = 0
+while(angle!=360){
+  angle = angle + 1
+  t.right(angle)
+  t.forward(radius)
+  t.right(180)
+  t.forward(radius)
+  t.right(180)
+}
 
 
 
